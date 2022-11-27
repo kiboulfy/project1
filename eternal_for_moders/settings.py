@@ -1,3 +1,5 @@
+#kibou:admin123
+
 """
 Django settings for eternal_for_moders project.
 
@@ -24,11 +26,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-p2+7t&(@bzi5ad#726y*cmd@i%cwi#cst1u&eb@2lc0jy_!jzn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['26.168.22.244']
 
-
+LOGIN_REDIRECT_URL = '/adding'
 # Application definition
 
 INSTALLED_APPS = [
